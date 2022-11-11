@@ -84,4 +84,6 @@ This solution is going to implement a somewhat naive algorithm, for a few reason
 
 The input file has one case (package to build) per-line. The returned output string will simiarly contain one line for each package.
 
-For each package, up to 15 items may (or may not) be included. This is easily and simply represented in TS as a boolean array of length 15. Each boolean value indicates if the item *is* (1) or *is not* (0) included in a package.
+For each package, up to 15 items may (or may not) be included. This is easily and simply represented in TS as a boolean array of length 15. Each boolean value indicates if the item *is* (1) or *is not* (0) included in a package. The number of possible combinations (item selections) for a package, is 2^^15 = 32768. Not all of these would need to be tested as some could be skipped due to failing a set of constraints, e.g. if only x items could fit in a package, e
+But essentially, we should compute, for each possible combination of item(s) for a given package, the value and the weight of package items for that particular combination. The combination that optimises (e.g. minimises, maximises) somehow the $value and/or weight of items, can be found. This is what will output to our file
+ 
