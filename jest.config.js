@@ -1,10 +1,10 @@
 export default {
   "roots": [
     "<rootDir>/src",
-    "<rootDir>/tests"
+    "<rootDir>/test"
   ],
   "testMatch": [
-    "**/tests/**/*.+(ts|tsx|js)",
+    "**/test/**/*.+(ts|tsx|js)",
     "**/?(*.)+(spec|test).+(ts|tsx|js)"
   ],
   "transform": {
