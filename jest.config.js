@@ -1,7 +1,6 @@
 export default {
   "roots": [
     "<rootDir>/src",
-    "<rootDir>/test"
   ],
   "testMatch": [
     "**/test/**/*.+(ts|tsx|js)",
