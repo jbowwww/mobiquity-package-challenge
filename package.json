@@ -22,10 +22,10 @@
     "type": "git",
     "url": "git+https://github.com/jbowwww/mobiquity-package-challenge.git"
   },
-  "author": "Joel Bowman",
+  "author": "Joel Bowman <jbowman@iinet.net.au>",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/jbowwww/mobiquity-package-challenge/issues"
   },
-  "homepage": "https://github.com/jbowwww/mobiquity-package-challenge#readme"
+  "homepage": "https://github.com/jbowwww/mobiquity-package-challenge"
 }
