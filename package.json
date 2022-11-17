@@ -2,7 +2,8 @@
   "name": "mobiquity-package-challenge",
   "version": "1.0.0",
   "description": "A node.js module for optimising package contents based on value, weight, and maximum package weight.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types" : "dist/index.d.ts",
   "type": "module",
   "devDependencies": {
     "@types/jest": "^29.2.2",
