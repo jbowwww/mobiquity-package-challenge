@@ -1,4 +1,4 @@
-import { Packer } from '../src/Packer';
+import { Packer } from './Packer';
 
 describe("Packer class", () => {
 	test("has a pack() method", () => {
