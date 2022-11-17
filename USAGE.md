@@ -1,6 +1,8 @@
 
 ## Install
 
+Install this module for your project, using your package manager of choice:
+
 ```sh
 npm install mobiquity-package-challenge --save
 yarn add mobiquity-package-challenge
@@ -8,6 +10,8 @@ bower install mobiquity-package-challenge --save
 ```
 
 ## Usage
+
+After installing the module, you can use the pack() method from either JS or TS, like so:
 
 ### Javascript
 
@@ -23,7 +27,9 @@ import { pack } from 'mobiquity-package-challenge';
 console.log(pack('./input_file'));
 ```
 
-## Test 
+## Test
+
+Switch to the module's directory and run unit tests using Jest:
 
 ```sh
 cd ./node_modules/mobiquity-package-challenge
